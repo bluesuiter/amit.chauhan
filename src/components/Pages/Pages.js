@@ -25,26 +25,39 @@ const pageData = {
     selectPage: (page) => {
         switch(page){
             case 'about':
-                return pageData.about();
+                pageData.about();
                 break;
             
             case 'experience':
-                return pageData.experience();
+                pageData.experience();
                 break;
             
             case 'education':
-                return pageData.education();
+                pageData.education();
                 break;
             
             case 'skills':
-                return pageData.skills();
+                pageData.skills();
                 break;
             
             case 'interests':
-                return pageData.interests();
+                pageData.interests();
+                break;
+            
+            default:
+                pageData.error404();
                 break;
         }
     },
+    error404: () => {
+        return (
+            <>
+                <h1>Page Not Found!</h1>
+                <Link to={'about'} className="btn btn-info btn-sm">Back To Home!</Link>
+            </>
+        )
+    },
+
     about: () => {
         return (
             <>
