@@ -25,28 +25,22 @@ const pageData = {
     selectPage: (page) => {
         switch(page){
             case 'about':
-                pageData.about();
-                break;
+                return pageData.about();
             
             case 'experience':
-                pageData.experience();
-                break;
+                return pageData.experience();
             
             case 'education':
-                pageData.education();
-                break;
+                return pageData.education();
             
             case 'skills':
-                pageData.skills();
-                break;
+                return pageData.skills();
             
             case 'interests':
-                pageData.interests();
-                break;
+                return pageData.interests();
             
             default:
-                pageData.error404();
-                break;
+                return pageData.error404();
         }
     },
     error404: () => {
