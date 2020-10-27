@@ -55,19 +55,15 @@ const pageData = {
     about: () => {
         return (
             <>
-                <h1 className="mb-0">
-                    Clarence
-                    <span className="text-primary">Taylor</span>
-                </h1>
+                <h1 className="mb-0">Amit <span className="text-primary">Chauhan</span></h1>
                 <div className="subheading mb-5">
-                    +91-9463887829
-                    <Link href="mailto:chauhanamit0810@outlook.com">chauhanamit0810@outlook.com</Link>
+                    <a className="text-info" href="tel:+919463887829">+91-9463887829</a> || <a className="text-info" href="mailto:chauhanamit0810@outlook.com">chauhanamit0810@outlook.com</a>
                 </div>
                 <p className="lead mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
                 <div className="social-icons">
-                    <Link className="social-icon" to={'https://in.linkedin.com/in/chauhanamit0810'}><i className="fab fa-linkedin-in"></i></Link>
-                    <Link className="social-icon" to={'https://github.com/bluesuiter'}><i className="fab fa-github"></i></Link>
-                    <Link className="social-icon" to={'https://twitter.com/chauhanamit0810'}><i className="fab fa-twitter"></i></Link>
+                    <a className="social-icon" href='https://in.linkedin.com/in/chauhanamit0810'><i className="fab fa-linkedin-in"></i></a>
+                    <a className="social-icon" href='https://github.com/bluesuiter'><i className="fab fa-github"></i></a>
+                    <a className="social-icon" href='https://twitter.com/chauhanamit0810'><i className="fab fa-twitter"></i></a>
                 </div>
             </>
         )
