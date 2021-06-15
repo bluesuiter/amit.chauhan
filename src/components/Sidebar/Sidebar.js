@@ -9,7 +9,7 @@ const Sidebar = () => {
     const [showMenu, setShowMenu] = useState(0);
 
     const getShowMenu = () => {
-        return showMenu == 1 ? 'show' : '';
+        return showMenu === 1 ? 'show' : '';
     }
 
     return (

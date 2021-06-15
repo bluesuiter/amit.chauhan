@@ -61,9 +61,9 @@ const pageData = {
                 </div>
                 <p className="lead mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
                 <div className="social-icons">
-                    <a className="social-icon" target="_blank" href='https://in.linkedin.com/in/chauhanamit0810'><i className="fab fa-linkedin-in"></i></a>
-                    <a className="social-icon" target="_blank" href='https://github.com/bluesuiter'><i className="fab fa-github"></i></a>
-                    <a className="social-icon" target="_blank" href='https://twitter.com/chauhanamit0810'><i className="fab fa-twitter"></i></a>
+                    <Link className="social-icon" target="_blank" to='https://in.linkedin.com/in/chauhanamit0810'><i className="fab fa-linkedin-in"></i></Link>
+                    <Link className="social-icon" target="_blank" to='https://github.com/bluesuiter'><i className="fab fa-github"></i></Link>
+                    <Link className="social-icon" target="_blank" to='https://twitter.com/chauhanamit0810'><i className="fab fa-twitter"></i></Link>
                 </div>
             </Fragment>
         )
