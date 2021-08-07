@@ -154,8 +154,9 @@ const pageData = {
                 <h2 className="mb-5">Skills</h2>
                 <div className="subheading mb-3">Programming Languages & Tools</div>
                 <ul className="list-inline dev-icons">
-                    <li className="list-inline-item"><i className="fab fa-wordpress"></i></li>
                     <li className="list-inline-item"><i className="fab fa-php"></i></li>
+                    <li className="list-inline-item"><i className="fab fa-wordpress"></i></li>
+                    <li className="list-inline-item"><i className="fab fa-laravel"></i></li>
                     <li className="list-inline-item"><i className="fab fa-html5"></i></li>
                     <li className="list-inline-item"><i className="fab fa-css3-alt"></i></li>
                     <li className="list-inline-item"><i className="fab fa-js-square"></i></li>
@@ -183,7 +184,7 @@ const pageData = {
                         Agile Development & Scrum
                     </li>
                 </ul>
-            </Fragment>
+            </Fragment >
         )
     },
 
