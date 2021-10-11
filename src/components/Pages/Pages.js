@@ -73,42 +73,61 @@ const pageData = {
         return (
             <Fragment>
                 <h2 className="mb-5">Experience</h2>
+                {/* sdp-labs */}
                 <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div className="flex-grow-1">
-                        <h3 className="mb-0">Senior Web Developer</h3>
-                        <div className="subheading mb-3">Ethos Watch Boutiques</div>
+                        <h3 className="mb-0">SDP Labs</h3>
+                        <div className="subheading mb-3">Senior Web Developer</div>
+                        <p>SDP Labs is running a application with name of Proof-Hub. They hired me for the profile of PHP-Developer.</p>
+                    </div>
+                    <div className="flex-shrink-0"><span className="text-primary">September 2018 - August 2021</span></div>
+                </div>
+
+                {/* ethos watches */}
+                <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div className="flex-grow-1">
+                        <h3 className="mb-0">Ethos Watch Boutiques</h3>
+                        <div className="subheading mb-3">Senior Web Developer</div>
                         <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
                     </div>
-                    <div className="flex-shrink-0"><span className="text-primary">September 2018 - Present</span></div>
+                    <div className="flex-shrink-0"><span className="text-primary">September 2018 - August 2021</span></div>
                 </div>
+
+                {/* escalon services */}
                 <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div className="flex-grow-1">
-                        <h3 className="mb-0">Software Engineer</h3>
-                        <div className="subheading mb-3">Escalon Services</div>
+                        <h3 className="mb-0">Escalon Services</h3>
+                        <div className="subheading mb-3">Software Engineer</div>
                         <p>Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line.</p>
                     </div>
                     <div className="flex-shrink-0"><span className="text-primary">November 2017 - September 2018</span></div>
                 </div>
+
+                {/* ethos watches */}
                 <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div className="flex-grow-1">
-                        <h3 className="mb-0">PHP Developer</h3>
-                        <div className="subheading mb-3">Ethos Watch Boutiques</div>
+                        <h3 className="mb-0">Ethos Watch Boutiques</h3>
+                        <div className="subheading mb-3">PHP Developer</div>
                         <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
                     </div>
                     <div className="flex-shrink-0"><span className="text-primary">May 2016 - October 2017</span></div>
                 </div>
-                <div className="d-flex flex-column flex-md-row justify-content-between">
+
+                {/* webroot technologies */}
+                <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div className="flex-grow-1">
-                        <h3 className="mb-0">WordPress/PHP Developer</h3>
-                        <div className="subheading mb-3">Webroot Technologies</div>
+                        <h3 className="mb-0">Webroot Technologies</h3>
+                        <div className="subheading mb-3">WordPress/PHP Developer</div>
                         <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
                     </div>
                     <div className="flex-shrink-0"><span className="text-primary">June 2015 - April 2016</span></div>
                 </div>
+
+                {/* ratiocinative solutions */}
                 <div className="d-flex flex-column flex-md-row justify-content-between">
                     <div className="flex-grow-1">
-                        <h3 className="mb-0">Frontend Developer</h3>
-                        <div className="subheading mb-3">Ratiocinative Solutions</div>
+                        <h3 className="mb-0">Ratiocinative Solutions</h3>
+                        <div className="subheading mb-3">Frontend Developer</div>
                         <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
                     </div>
                     <div className="flex-shrink-0"><span className="text-primary">January 2014 - June 2015</span></div>
@@ -164,6 +183,7 @@ const pageData = {
                     <li className="list-inline-item"><i className="fab fa-react"></i></li>
                     <li className="list-inline-item"><i className="fab fa-node-js"></i></li>
                     <li className="list-inline-item"><i className="fab fa-npm"></i></li>
+                    <li className="list-inline-item"><i className="fab fa-vue"></i></li>
                 </ul>
                 <div className="subheading mb-3">Workflow</div>
                 <ul className="fa-ul mb-0">
