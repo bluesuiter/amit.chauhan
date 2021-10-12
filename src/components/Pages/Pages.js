@@ -59,7 +59,7 @@ const pageData = {
                 <div class="row col-12">
                     <div class="col-12 col-sm-2" href="#page-top">
                         <span class="d-none d-lg-block">
-                            <img height="110px" alt="Amit Chauhan" class="img-fluid img-profile shadow rounded-circle mx-auto mb-3" src="/static/media/1623396096273.9b9b7952.jpg"/>
+                            <img height="110px" alt="Amit Chauhan" class="img-fluid img-profile shadow rounded-circle mx-auto mb-3" src={require('../../assets/images/1623396096273.jpg')}/>
                         </span>
                     </div>
                     <div class="col-12 mt-sm-4 pl-sm-5 col-sm-8">
