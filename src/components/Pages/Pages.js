@@ -55,7 +55,6 @@ const pageData = {
     about: () => {
         return (
             <Fragment>
-                <h1 className="mb-0">Amit <span className="text-primary">Chauhan</span></h1>
                 <div class="row col-12">
                     <div class="col-12 col-sm-2" href="#page-top">
                         <span class="d-none d-lg-block">
