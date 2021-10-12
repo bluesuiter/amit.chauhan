@@ -56,8 +56,19 @@ const pageData = {
         return (
             <Fragment>
                 <h1 className="mb-0">Amit <span className="text-primary">Chauhan</span></h1>
-                <div className="subheading mb-5">
-                    <a className="text-info" href="tel:+919463887829">+91-9463887829</a> || <a className="text-info" href="mailto:chauhanamit0810@outlook.com">chauhanamit0810@outlook.com</a>
+                <div class="row col-12">
+                    <div class="col-12 col-sm-2" href="#page-top">
+                        <span class="d-block d-lg-none">Amit Chauhan</span>
+                        <span class="d-none d-lg-block">
+                            <img height="110px" alt="Amit Chauhan" class="img-fluid img-profile shadow rounded-circle mx-auto mb-3" src="/static/media/1623396096273.9b9b7952.jpg"/>
+                        </span>
+                    </div>
+                    <div class="col-12 mt-sm-4 pl-sm-5 col-sm-8">
+                        <h1 class="mb-0">Amit <span class="text-primary">Chauhan</span></h1>
+                        <div class="subheading mb-5">
+                            <a class="text-info" href="tel:+919463887829">+91-9463887829</a> || <a class="text-info" href="mailto:chauhanamit0810@outlook.com">chauhanamit0810@outlook.com</a>
+                        </div>
+                    </div>
                 </div>
                 <p className="lead mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
                 <div className="social-icons">
