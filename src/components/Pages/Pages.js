@@ -58,7 +58,6 @@ const pageData = {
                 <h1 className="mb-0">Amit <span className="text-primary">Chauhan</span></h1>
                 <div class="row col-12">
                     <div class="col-12 col-sm-2" href="#page-top">
-                        <span class="d-block d-lg-none">Amit Chauhan</span>
                         <span class="d-none d-lg-block">
                             <img height="110px" alt="Amit Chauhan" class="img-fluid img-profile shadow rounded-circle mx-auto mb-3" src="/static/media/1623396096273.9b9b7952.jpg"/>
                         </span>
