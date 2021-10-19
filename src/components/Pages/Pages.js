@@ -192,7 +192,7 @@ const pageData = {
                     <li className="list-inline-item"><i className="fab fa-react"></i></li>
                     <li className="list-inline-item"><i className="fab fa-node-js"></i></li>
                     <li className="list-inline-item"><i className="fab fa-npm"></i></li>
-                    <li className="list-inline-item"><i className="fab fa-vue"></i></li>
+                    <li className="list-inline-item"><i className="fab fa-vuejs"></i></li>
                 </ul>
                 <div className="subheading mb-3">Workflow</div>
                 <ul className="fa-ul mb-0">
@@ -221,7 +221,7 @@ const pageData = {
         return (
             <Fragment>
                 <h2 className="mb-5">Interests</h2>
-                <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
+                <p>Apart from being a web developer, I enjoy most of my time being with Family. On holidays I go for outing with my family.</p>
                 <p className="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
             </Fragment>
         )
