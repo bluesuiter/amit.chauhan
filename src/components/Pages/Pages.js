@@ -57,10 +57,9 @@ const pageData = {
             <Fragment>
                 <div class="row col-12">
                     <div class="col-12 col-sm-2" href="#page-top">
-                        <span class="d-none d-lg-block">
-                            <img height="110px" alt="Amit Chauhan" class="img-fluid img-profile shadow rounded-circle mx-auto mb-3" src={require('../../assets/images/1623396096273.jpg')}/>
-                        </span>
+                        <img height="110px" alt="Amit Chauhan" class="img-fluid img-profile shadow rounded-circle mx-auto mb-3" src={require('../../assets/images/1623396096273.jpg')}/>
                     </div>
+                    <hr/>
                     <div class="col-12 mt-sm-4 pl-sm-5 col-sm-8">
                         <h1 class="mb-0">Amit <span class="text-primary">Chauhan</span></h1>
                         <div class="subheading mb-5">
