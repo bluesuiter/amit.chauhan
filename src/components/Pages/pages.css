@@ -29,7 +29,7 @@
 
 section.resume-section {
   display: flex;
-  align-items: center;
+  align-items: start;
   padding-left: 1rem;
   padding-right: 1rem;
   padding-top: 5rem;
