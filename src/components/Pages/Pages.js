@@ -2,9 +2,11 @@ import React, { Fragment } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import './pages.css';
 
-const Pages = (props) => {
+const Pages = (props) =>
+{
     let { page } = useParams();
-    if (typeof page === 'undefined') {
+    if (typeof page === 'undefined')
+    {
         page = props.page
     }
 
@@ -12,7 +14,7 @@ const Pages = (props) => {
         <div className="container-fluid p-0">
             <section className="resume-section">
                 <div className="resume-section-content">
-                    {pageData.selectPage(page)}
+                    { pageData.selectPage(page) }
                 </div>
             </section>
         </div>
@@ -22,8 +24,10 @@ const Pages = (props) => {
 export default Pages;
 
 const pageData = {
-    selectPage: (page) => {
-        switch (page) {
+    selectPage: (page) =>
+    {
+        switch (page)
+        {
             case 'about':
                 return pageData.about();
 
@@ -43,45 +47,48 @@ const pageData = {
                 return pageData.error404();
         }
     },
-    error404: () => {
+    error404: () =>
+    {
         return (
             <Fragment>
                 <h1>Page Not Found!</h1>
-                <Link to={'about'} className="btn btn-info btn-sm">Back To Home!</Link>
+                <Link to={ 'about' } className="btn btn-info btn-sm">Back To Home!</Link>
             </Fragment>
         )
     },
 
-    about: () => {
+    about: () =>
+    {
         return (
             <Fragment>
                 <div class="row col-12">
-                    <div class="col-12 col-sm-2" href="#page-top">
-                        <img height="110px" alt="Amit Chauhan" class="img-fluid img-profile shadow rounded-circle mx-auto mb-3" src={require('../../assets/images/1623396096273.jpg')}/>
+                    <div class="col-12 col-sm-3 text-center" href="#page-top">
+                        <img height="110px" alt="Amit Chauhan" class="img-fluid img-profile shadow rounded mx-auto mb-3" src={ require('../../assets/images/1623396096273.jpg') } />
+                        <div className="border py-1 rounded social-icons">
+                            <Link className="social-icon" target="_blank" to='https://in.linkedin.com/in/chauhanamit0810'><i className="fab fa-linkedin-in"></i></Link>
+                            <Link className="social-icon" target="_blank" to='https://github.com/bluesuiter'><i className="fab fa-github"></i></Link>
+                            <Link className="social-icon" target="_blank" to='https://twitter.com/chauhanamit0810'><i className="fab fa-twitter"></i></Link>
+                        </div>
                     </div>
-                    <hr/>
-                    <div class="col-12 mt-sm-4 pl-sm-5 col-sm-8">
+                    <div class="col-12 mt-sm-4 pl-sm-5 col-sm-9">
                         <h1 class="mb-0">Amit <span class="text-primary">Chauhan</span></h1>
                         <div class="subheading mb-5">
                             <a class="text-info" href="tel:+919463887829">+91-9463887829</a> || <a class="text-info" href="mailto:chauhanamit0810@outlook.com">chauhanamit0810@outlook.com</a>
                         </div>
+                        <p className="lead mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
                     </div>
                 </div>
-                <p className="lead mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
-                <div className="social-icons">
-                    <Link className="social-icon" target="_blank" to='https://in.linkedin.com/in/chauhanamit0810'><i className="fab fa-linkedin-in"></i></Link>
-                    <Link className="social-icon" target="_blank" to='https://github.com/bluesuiter'><i className="fab fa-github"></i></Link>
-                    <Link className="social-icon" target="_blank" to='https://twitter.com/chauhanamit0810'><i className="fab fa-twitter"></i></Link>
-                </div>
+
             </Fragment>
         )
     },
 
-    experience: () => {
+    experience: () =>
+    {
         return (
             <Fragment>
                 <h2 className="mb-5">Experience</h2>
-                {/* sdp-labs */}
+                {/* sdp-labs */ }
                 <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div className="flex-grow-1">
                         <h3 className="mb-0">SDP Labs</h3>
@@ -91,7 +98,7 @@ const pageData = {
                     <div className="flex-shrink-0"><span className="text-primary">September 2018 - August 2021</span></div>
                 </div>
 
-                {/* ethos watches */}
+                {/* ethos watches */ }
                 <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div className="flex-grow-1">
                         <h3 className="mb-0">Ethos Watch Boutiques</h3>
@@ -101,7 +108,7 @@ const pageData = {
                     <div className="flex-shrink-0"><span className="text-primary">September 2018 - August 2021</span></div>
                 </div>
 
-                {/* escalon services */}
+                {/* escalon services */ }
                 <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div className="flex-grow-1">
                         <h3 className="mb-0">Escalon Services</h3>
@@ -111,7 +118,7 @@ const pageData = {
                     <div className="flex-shrink-0"><span className="text-primary">November 2017 - September 2018</span></div>
                 </div>
 
-                {/* ethos watches */}
+                {/* ethos watches */ }
                 <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div className="flex-grow-1">
                         <h3 className="mb-0">Ethos Watch Boutiques</h3>
@@ -121,7 +128,7 @@ const pageData = {
                     <div className="flex-shrink-0"><span className="text-primary">May 2016 - October 2017</span></div>
                 </div>
 
-                {/* webroot technologies */}
+                {/* webroot technologies */ }
                 <div className="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div className="flex-grow-1">
                         <h3 className="mb-0">Webroot Technologies</h3>
@@ -131,7 +138,7 @@ const pageData = {
                     <div className="flex-shrink-0"><span className="text-primary">June 2015 - April 2016</span></div>
                 </div>
 
-                {/* ratiocinative solutions */}
+                {/* ratiocinative solutions */ }
                 <div className="d-flex flex-column flex-md-row justify-content-between">
                     <div className="flex-grow-1">
                         <h3 className="mb-0">Ratiocinative Solutions</h3>
@@ -144,7 +151,8 @@ const pageData = {
         )
     },
 
-    education: () => {
+    education: () =>
+    {
         return (
             <Fragment>
                 <h2 className="mb-5">Education</h2>
@@ -175,7 +183,8 @@ const pageData = {
         )
     },
 
-    skills: () => {
+    skills: () =>
+    {
         return (
             <Fragment>
                 <h2 className="mb-5">Skills</h2>
@@ -216,7 +225,8 @@ const pageData = {
         )
     },
 
-    interests: () => {
+    interests: () =>
+    {
         return (
             <Fragment>
                 <h2 className="mb-5">Interests</h2>
