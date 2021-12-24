@@ -123,7 +123,11 @@ const pageData = {
                     <div className="flex-grow-1">
                         <h3 className="mb-0">Ethos Watch Boutiques</h3>
                         <div className="subheading mb-3">PHP Developer</div>
-                        <p>Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration.</p>
+                        <strong>Responsibilities:</strong>
+                        <ul>
+                            <li>Maintenance of company's WordPress blog.</li>
+                            <li>Developing plugins WordPress plugins.</li>
+                        </ul>
                     </div>
                     <div className="flex-shrink-0"><span className="text-primary">May 2016 - October 2017</span></div>
                 </div>
@@ -138,10 +142,10 @@ const pageData = {
                             <li>Maintenance of developed/delivered websites.</li>
                             <li>Managing the day-to-day activities of the team.</li>
                             <li>Listen to team members feedback and resolve any issues or conflicts.</li>
-                            <li>Working on PHP customizations of WordPress websites.</li>
+                            <li>Working on PHP/WordPress websites.</li>
                             <li>Delegating tasks to team members.</li>
+                            <li>Developing plugins WordPress plugins.</li>
                         </ul>
-                        <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
                     </div>
                     <div className="flex-shrink-0"><span className="text-primary">June 2015 - April 2016</span></div>
                 </div>
