@@ -133,6 +133,14 @@ const pageData = {
                     <div className="flex-grow-1">
                         <h3 className="mb-0">Webroot Technologies</h3>
                         <div className="subheading mb-3">WordPress/PHP Developer</div>
+                        <strong>Responsibilities:</strong>
+                        <ul>
+                            <li>Maintenance of developed/delivered websites.</li>
+                            <li>Managing the day-to-day activities of the team.</li>
+                            <li>Listen to team members feedback and resolve any issues or conflicts.</li>
+                            <li>Working on PHP customizations of WordPress websites.</li>
+                            <li>Delegating tasks to team members.</li>
+                        </ul>
                         <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
                     </div>
                     <div className="flex-shrink-0"><span className="text-primary">June 2015 - April 2016</span></div>
@@ -143,7 +151,13 @@ const pageData = {
                     <div className="flex-grow-1">
                         <h3 className="mb-0">Ratiocinative Solutions</h3>
                         <div className="subheading mb-3">Frontend Developer</div>
-                        <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
+                        <strong>Responsibilities:</strong>
+                        <ul>
+                            <li>Developing WordPress websites from PSD.</li>
+                            <li>Maintenance of already developed/delivered websites.</li>
+                            <li>Working on PHP and Javascript/jQuery developments.</li>
+                            <li>Customization of WordPress websites as per customer requirements.</li>
+                        </ul>
                     </div>
                     <div className="flex-shrink-0"><span className="text-primary">January 2014 - June 2015</span></div>
                 </div>
