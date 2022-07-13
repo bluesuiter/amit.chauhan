@@ -28,7 +28,7 @@ const Sidebar = () =>
             <div className={ `${getShowMenu()} collapse navbar-collapse` } id="navbarSupportedContent">
                 <ul className="navbar-nav">
                     <NavLink onClick={ () => setShowMenu(!showMenu) } className="shadow nav-link font-weight-bold text-uppercase" to={ 'about' }>About</NavLink>
-                    <NavLink onClick={ () => setShowMenu(!showMenu) } className="shadow nav-link font-weight-bold text-uppercase" to={ 'professional_history' }>Professional History</NavLink>
+                    <NavLink onClick={ () => setShowMenu(!showMenu) } className="shadow nav-link font-weight-bold text-uppercase" to={ 'experience' }>Professional History</NavLink>
                     <NavLink onClick={ () => setShowMenu(!showMenu) } className="shadow nav-link font-weight-bold text-uppercase" to={ 'education' }>Education</NavLink>
                     <NavLink onClick={ () => setShowMenu(!showMenu) } className="shadow nav-link font-weight-bold text-uppercase" to={ 'skills' }>Skills</NavLink>
                     <NavLink onClick={ () => setShowMenu(!showMenu) } className="shadow nav-link font-weight-bold text-uppercase" to={ 'interests' }>Interests</NavLink>
