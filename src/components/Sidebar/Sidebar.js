@@ -18,9 +18,11 @@ const Sidebar = () =>
         <Nav id="sideNav" className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
             <div class="w-75 text-center" href="#page-top">
                 <img height="110px" alt="Amit Chauhan" class="img-fluid img-profile shadow rounded-circle mx-auto mb-3" src={ require('../../assets/images/1623396096273.jpg') } />
+                <p>Hi, my name is Amit Chauhan and I'm a Software Engineer. Welcome to my personal website!</p>
+                <hr/>
                 <div className="py-1 rounded social-icons">
-                    <NavLink className="social-icon linkedin" target="_blank" to={{ pahtname: 'https://in.linkedin.com/in/chauhanamit0810' }}><i className="fab fa-linkedin-in"></i></NavLink>
-                    <NavLink className="social-icon github" target="_blank" to={{ pahtname: 'https://github.com/bluesuiter' }}><i className="fab fa-github"></i></NavLink>
+                    <NavLink className="social-icon linkedin" target="_blank" to={{ pathname: 'https://in.linkedin.com/in/chauhanamit0810' }}><i className="fab fa-linkedin-in"></i></NavLink>
+                    <NavLink className="social-icon github" target="_blank" to={{ pathname: 'https://github.com/bluesuiter' }}><i className="fab fa-github"></i></NavLink>
                     <NavLink className="social-icon twitter" target="_blank" to={{ pathname: 'https://twitter.com/chauhanamit0810' }}><i className="fab fa-twitter"></i></NavLink>
                 </div>
             </div>
