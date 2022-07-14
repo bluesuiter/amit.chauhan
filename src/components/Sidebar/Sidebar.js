@@ -16,7 +16,7 @@ const Sidebar = () =>
 
     return (
         <Nav id="sideNav" className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
-            <div class="col-10 text-center" href="#page-top">
+            <div class="w-75 text-center" href="#page-top">
                 <img height="110px" alt="Amit Chauhan" class="img-fluid img-profile shadow rounded-circle mx-auto mb-3" src={ require('../../assets/images/1623396096273.jpg') } />
                 <div className="py-1 rounded social-icons">
                     <NavLink className="social-icon linkedin" target="_blank" to={{ pahtname: 'https://in.linkedin.com/in/chauhanamit0810' }}><i className="fab fa-linkedin-in"></i></NavLink>
